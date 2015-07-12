@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Somos159</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Login</string>
+    <string name="action_communities">Comunidades</string>
+    <string name="title_activity_home">#Somos159</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="title_activity_detail">Actividad</string>
+    <string name="title_activity_login">Logn</string>
+    <string name="title_activity_communities">Comunidades</string>
+    <string name="title_activity_detail_community">Comunidad</string>
+</resources>
