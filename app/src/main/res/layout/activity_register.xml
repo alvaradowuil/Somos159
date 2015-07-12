@@ -135,7 +135,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/register_password"
-                android:text="123" />
+                android:text="123"
+                android:inputType="textPassword"/>
             
             <Button
                 android:layout_width="match_parent"

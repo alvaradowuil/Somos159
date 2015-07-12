@@ -149,9 +149,6 @@ public class RegisterActivity extends ActionBarActivity implements View.OnClickL
         int   month= datePicker.getMonth() + 1;
         int   year = datePicker.getYear();
         Log.e("ARTI", "anio = " + year);
-//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-//        String formatedDate = sdf.format(new Date(year, month, day));
-//        Log.e("ARTI", "fecha = " + formatedDate);
         return "" + year + "-" + month + "-" + day ;
     }
 
@@ -162,26 +159,4 @@ public class RegisterActivity extends ActionBarActivity implements View.OnClickL
 
         return true;
     }
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_register, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 }

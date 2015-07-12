@@ -78,7 +78,6 @@ public class HomeActivity extends ActionBarActivity implements AdapterView.OnIte
             }
 
             listView.setAdapter(new SimpleAdapter(HomeActivity.this, dataList, R.layout.item_activities, idsMap, idsItem));
-//            listView.setAdapter(new AdapterAcitivies(Constants.activitiesArray, HomeActivity.this));
         }
     }
 
